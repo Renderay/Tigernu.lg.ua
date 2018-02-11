@@ -1,3 +1,25 @@
+
+/*  Fonts  */
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('../fonts/Roboto-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto-Italic';
+    src: url('../fonts/Roboto-Italic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 html {height: 100%;}
 body {
 height: 100%;
@@ -142,7 +164,7 @@ h5.title {
 
 .services-item {
   float: left;
-  width: 33.33%;
+  width: 25%;
   padding: 90px 0 10px;
   }
 
@@ -169,7 +191,7 @@ h5.title {
 
 #portfolio {
   text-align: center;
-  background: #f7f7f7;
+  background: grey;
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -232,10 +254,9 @@ h5.title {
 .about-img:after {
   content:'';
   display: block;
-  height: 94px;
+  height:34px;
   width: 3px;
   margin: 0 auto;
-background: #f1f1f1;
 }
 
 .about-img img, .about-link{
@@ -273,27 +294,14 @@ text-shadow: 0 1px rgba(0,0,0 .3);
 
 #item {
   text-align: center;
-}
-
-.team-item {
-  float: left;
-  width: 33.33%;
-}
-
-.item-item img {
-  margin-bottom: 15px;
-  border: 7px solid #fff;
-}
-
-.team-info {
-  margin-top: 45px;
+  padding-top: 20px;
+  height:550px;
+  background-color: grey;
 }
 
 
-.cat {
-  font: 14px/14px Arial, sans-serif;
-  color:#777;
-}
+
+
 
 
 
@@ -422,19 +430,7 @@ background:url(img/vk.png) no-repeat white;
 
 
 
-
-
-
-#copyright p {
-  margin-top: 13px;
-  font: 14px Arial, sans-serif;
-  color: #555;
-}
-
-#copyright .social {
-  margin-top: 0;
-  margin-left: 365px;
-}
+/*  footer  */
 
 
 
