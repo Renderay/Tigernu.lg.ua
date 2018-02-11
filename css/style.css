@@ -120,7 +120,6 @@ a.button.green-light {
 	height: 18px;
 	display: block;
 	cursor: pointer;
-	text-indent: -9999em;
 	background: url(../img/logo.png) no-repeat;
 	float: left;
 	margin-left: 2px;
@@ -337,7 +336,8 @@ a.button.green-light {
 
 #footer .logo {
 	float: left;
-	margin: 5px 57px 0 0;
+	/*margin: 5px 100px 0 0;*/
+	margin-right: 8%;
 }
 
 #footer p {
@@ -348,7 +348,7 @@ a.button.green-light {
 	font-weight: 500;
 	text-transform: uppercase;
 	width: 200px;
-	margin-right: 40px;
+	margin-right: 8%;
 }
 
 #footer p a {
@@ -421,8 +421,6 @@ a.button.green-light {
 
 /* Media
 ------------------------------------------------------------------------------*/
-
-
 
 @media screen and (max-width: 1430px) {
 
@@ -699,6 +697,7 @@ li.hassub {
 	#footer p.contacts {
 		text-align: right;
 		float: right;
+
 	}
 
 	#footer p a {
@@ -797,3 +796,10 @@ li.hassub {
 		font-size: 18px;
 		line-height: 25px;
 	}
+
+
+
+
+
+@media screen and (max-width: 470px) {
+}
