@@ -25,7 +25,7 @@ a, a:hover {text-decoration: none;}
 
 #header {
   position: absolute;
-  top: 20px;
+  top: 25px;
   left: 0;
   right:0;
   width: 100%;
@@ -41,7 +41,7 @@ a, a:hover {text-decoration: none;}
 
 .nav {
   float: right;
-  padding-top: 40px;
+  padding-top: 10px;
   margin-right: 40px;
 }
 
@@ -51,31 +51,32 @@ a, a:hover {text-decoration: none;}
 .nav a {
   text-transform: uppercase;
   font: 14px Arial, sans-serif;
-  color: #fff;
+  color: #bbb;
 }
+
 
 
 
 #home {
-  height: 700px;
-  padding-top: 270px;
+  height: 400px;
+  padding-top: 160px;
   text-align: center;
-  background:  #777 url(img/home-bg.jpg) no-repeat center bottom;
+  background:  #fff url(img/home-bg.jpg) no-repeat center bottom;
 
 }
 
 #home h1  {
-font: 75px/75px Arial, sans-serif;
+font: 55px/55px Arial, sans-serif;
 text-transform:uppercase;
-color: #fff;
+color:black;
   margin-bottom: 40px
 
 }
 
 #home h3 {
-  font: 40px/40px Arial, sans-serif;
+  font: 30px/30px Arial, sans-serif;
   margin-bottom: 40px;
-  color: #fff;
+  color: black;
 }
 
 
@@ -84,7 +85,7 @@ color: #fff;
   padding: 20px 30px;
   text-transform: uppercase;
   font:bold 24px/24px Arial, sans-serif;
-  background: #fed136;
+  background: red;
   cursor: pointer;
 
    -webkit-border-radius: 4px;
@@ -94,7 +95,7 @@ color: #fff;
 }
 
 .btn:hover {
-  background: #daae17;
+  background: darkred;
   color:#fff;
 }
 
