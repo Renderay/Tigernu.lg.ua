@@ -41,13 +41,11 @@ a, a:hover {text-decoration: none;}
 
 .nav {
   float: right;
-  padding-top: 5px;
-}
-
-.nav li {
-  float: left;
+  padding-top: 40px;
   margin-right: 40px;
 }
+
+
 
 .nav li:last-child {margin-right: 0;}
 .nav a {
@@ -108,6 +106,8 @@ color: #fff;
 
 #services {
   text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 
@@ -169,6 +169,8 @@ h5.title {
 #portfolio {
   text-align: center;
   background: #f7f7f7;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 
@@ -211,7 +213,11 @@ h5.title {
 
 #about {
   text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
+
+
 
 .about-text {
   width: 35%;
@@ -288,6 +294,106 @@ text-shadow: 0 1px rgba(0,0,0 .3);
   color:#777;
 }
 
+
+
+/* Стили формы */
+#application {
+    width: 475px;
+    margin: 0 auto;
+}
+
+/*Стили полей для ввода*/
+#applicationName, #applicationEmail, #applicationTelephone {
+    width: 100%;
+    height: 73px;
+    background: none;
+    margin-top: 25px;
+    border: 1px solid #fff;
+    border-radius: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+}
+
+/*Стили полей при клике по ним*/
+#applicationName:focus, #applicationEmail:focus, #applicationTelephone:focus {
+    border: 1px solid #30ad64;
+}
+
+/*Стили текста, выводящегося в placeholder*/
+::-webkit-input-placeholder {
+    color: #efefef;
+    font-family: 'PT Sans', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+::-moz-placeholder  {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}  /* Firefox 19+ */
+
+:-moz-placeholder {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}  /* Firefox 18- */
+
+:-ms-input-placeholder {
+    color: #fff;
+    font-family: 'PT Sans', sans-serif;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+::placeholder {
+    color: #fff;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
+}
+
+/*Стили для кнопки*/
+.applicationButton {
+    margin-top: 25px;
+    background: #30ad64;
+    border: none;
+    width: 100%;
+    height: 73px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+    cursor: pointer;
+}
+    .applicationButton:hover {
+        background: #d68c18;
+    }
+
+    /*Стили для кнопки*/
+.applicationButton {
+    margin-top: 25px;
+    background: #30ad64;
+    border: none;
+    width: 100%;
+    height: 73px;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-family: 'PT Sans', sans-serif;
+    cursor: pointer;
+}
+    .applicationButton:hover {
+        background: #d68c18;
+    }
+
+
+
+
+
+
+
+
+
 .social {margin-top: 10px;}
 
 .social a {
@@ -297,108 +403,26 @@ text-shadow: 0 1px rgba(0,0,0 .3);
   border: 3px solid #222;
   border-radius: 50%;
   margin-right: 0 3px;
-  background: url(css/img/social-sprite.png) no-repeat;
+
 }
 
-.social a.black {background: #222;}
+.social a.black {background: url(img/vk.png)no repeat}
 
 .social a .ic-tw {
 background-position:0 0;}
 .social a .ic-tw:hover {
 border: #00aced;
-background-color: #00aced;
-background-position:0 -40px;
+background:url(img/vk.png) no-repeat white;
+
 }
 .social a..ic-tw .black {
     background-position:0 -40px;
 }
-.social a .ic-fb {background-position:-40px 0;}
-.social a .ic-fb:hover {
-border: #3b5998;
-background-color: #3b5998;
-background-position:-40px -40px;
-}
-.social a..ic-fb .black {
-    background-position:-40px -40px;
-}
-.social a .ic-pn {background-position:-80px 0;}
-.social a .ic-pn:hover {
-border: #cb2028;
-background-color: #cb2028;
-background-position:-80px -40px;
-}
-.social a..ic-pn .black {
-    background-position:-80px -40px;
-}
-.social a .ic-gl {background-position:-120px 0;}
-.social a .ic-gl:hover {
-border: #d95232;
-background-color: #d95232;
-background-position:-120px -40px;
-}
-.social a..ic-gl .black {
-    background-position:-120px -40px;
-}
-
-#brand {
-  padding:  60px 0;
-  text-align: center;
-}
-
-#brand a {
-  display: inline-block;
-  margin-right:  40px;
-}
-
-#brand a:last-child {margin-right: 0;}
-
-#brand img {vertical-align: middle;}
-
-#contact {
-  text-align: center;
-  background: #222 url (css/img/maps-bg/png) no-repeat right bottom;
-
-}
-
-
-
-#contact h2.title {color:white;}
 
 
 
 
-#message .left,
-#message .right {width: 48%;}
 
-
-#message input [type="text"],
-#message textarea {
-background: #fff;
-border-radius: 4px;
-width: 100%;
-box-shadow: none;
-margin-bottom: 30px;
-padding: 15px 20px;
-color: #222;
-font: 14px/14px Arial, sans-serif;
-}
-
-
-#message input [type="text"] {
-  height: 50px;
-  border: 1px solid #ccc;
-}
-
-
-#message textarea {
-  border: none;
-  resize: none;
-  height: 210px;
-}
-
-#copyright {
-  padding: 25px 0;
-}
 
 #copyright p {
   margin-top: 13px;
@@ -410,3 +434,61 @@ font: 14px/14px Arial, sans-serif;
   margin-top: 0;
   margin-left: 365px;
 }
+
+
+
+/*Кнопка обратного звонка */
+#popup__toggle{bottom:25px;right:10px;position:fixed;z-index:999;}
+.img-circle{background-color:#29AEE3;box-sizing:content-box;-webkit-box-sizing:content-box;}
+.circlephone{box-sizing:content-box;-webkit-box-sizing:content-box;border: 2px solid #29AEE3;width:150px;height:150px;bottom:-25px;right:10px;position:absolute;-webkit-border-radius:100%;-moz-border-radius: 100%;border-radius: 100%;opacity: .5;-webkit-animation: circle-anim 2.4s infinite ease-in-out !important;-moz-animation: circle-anim 2.4s infinite ease-in-out !important;-ms-animation: circle-anim 2.4s infinite ease-in-out !important;-o-animation: circle-anim 2.4s infinite ease-in-out !important;animation: circle-anim 2.4s infinite ease-in-out !important;-webkit-transition: all .5s;-moz-transition: all .5s;-o-transition: all .5s;transition: all 0.5s;}
+.circle-fill{box-sizing:content-box;-webkit-box-sizing:content-box;background-color:#29AEE3;width:100px;height:100px;bottom:0px;right:35px;position:absolute;-webkit-border-radius: 100%;-moz-border-radius: 100%;border-radius: 100%;border: 2px solid transparent;-webkit-animation: circle-fill-anim 2.3s infinite ease-in-out;-moz-animation: circle-fill-anim 2.3s infinite ease-in-out;-ms-animation: circle-fill-anim 2.3s infinite ease-in-out;-o-animation: circle-fill-anim 2.3s infinite ease-in-out;animation: circle-fill-anim 2.3s infinite ease-in-out;-webkit-transition: all .5s;-moz-transition: all .5s;-o-transition: all .5s;transition: all 0.5s;}
+.img-circle{box-sizing:content-box;-webkit-box-sizing:content-box;width:72px;height:72px;bottom: 14px;right: 49px;position:absolute;-webkit-border-radius: 100%;-moz-border-radius: 100%;border-radius: 100%;border: 2px solid transparent;opacity: .7;}
+.img-circleblock{box-sizing:content-box;-webkit-box-sizing:content-box;width:72px;height:72px;background-image:url(img/mini.png);background-position: center center;background-repeat:no-repeat;animation-name: tossing;-webkit-animation-name: tossing;animation-duration: 1.5s;-webkit-animation-duration: 1.5s;animation-iteration-count: infinite;-webkit-animation-iteration-count: infinite;}
+.img-circle:hover{opacity: 1;}
+@keyframes pulse {0% {transform: scale(0.9);opacity: 1;}
+  50% {transform: scale(1); opacity: 1; }
+  100% {transform: scale(0.9);opacity: 1;}}
+ @-webkit-keyframes pulse {0% {-webkit-transform: scale(0.95);opacity: 1;}
+  50% {-webkit-transform: scale(1);opacity: 1;}
+  100% {-webkit-transform: scale(0.95);opacity: 1;}}
+@keyframes tossing {
+  0% {transform: rotate(-8deg);}
+  50% {transform: rotate(8deg);}
+  100% {transform: rotate(-8deg);}}
+@-webkit-keyframes tossing {
+  0% {-webkit-transform: rotate(-8deg);}
+  50% {-webkit-transform: rotate(8deg);}
+  100% {-webkit-transform: rotate(-8deg);}}
+@-moz-keyframes circle-anim {
+  0% {-moz-transform: rotate(0deg) scale(0.5) skew(1deg);opacity: .1;-moz-opacity: .1;-webkit-opacity: .1;-o-opacity: .1;}
+  30% {-moz-transform: rotate(0deg) scale(0.7) skew(1deg);opacity: .5;-moz-opacity: .5;-webkit-opacity: .5;-o-opacity: .5;}
+  100% {-moz-transform: rotate(0deg) scale(1) skew(1deg);opacity: .6;-moz-opacity: .6;-webkit-opacity: .6;-o-opacity: .1;}}
+@-webkit-keyframes circle-anim {
+  0% {-webkit-transform: rotate(0deg) scale(0.5) skew(1deg);-webkit-opacity: .1;}
+  30% {-webkit-transform: rotate(0deg) scale(0.7) skew(1deg);-webkit-opacity: .5;}
+  100% {-webkit-transform: rotate(0deg) scale(1) skew(1deg);-webkit-opacity: .1;}}
+@-o-keyframes circle-anim {
+  0% {-o-transform: rotate(0deg) kscale(0.5) skew(1deg);-o-opacity: .1;}
+  30% {-o-transform: rotate(0deg) scale(0.7) skew(1deg);-o-opacity: .5;}
+  100% {-o-transform: rotate(0deg) scale(1) skew(1deg);-o-opacity: .1;}}
+@keyframes circle-anim {
+  0% {transform: rotate(0deg) scale(0.5) skew(1deg);opacity: .1;}
+  30% {transform: rotate(0deg) scale(0.7) skew(1deg);opacity: .5;}
+  100% {transform: rotate(0deg) scale(1) skew(1deg);
+opacity: .1;}}
+@-moz-keyframes circle-fill-anim {
+  0% {-moz-transform: rotate(0deg) scale(0.7) skew(1deg);opacity: .2;}
+  50% {-moz-transform: rotate(0deg) -moz-scale(1) skew(1deg);opacity: .2;}
+  100% {-moz-transform: rotate(0deg) scale(0.7) skew(1deg);opacity: .2;}}
+@-webkit-keyframes circle-fill-anim {
+  0% {-webkit-transform: rotate(0deg) scale(0.7) skew(1deg);opacity: .2;  }
+  50% {-webkit-transform: rotate(0deg) scale(1) skew(1deg);opacity: .2;  }
+  100% {-webkit-transform: rotate(0deg) scale(0.7) skew(1deg);opacity: .2;}}
+@-o-keyframes circle-fill-anim {
+  0% {-o-transform: rotate(0deg) scale(0.7) skew(1deg);opacity: .2;}
+  50% {-o-transform: rotate(0deg) scale(1) skew(1deg);opacity: .2;}
+  100% {-o-transform: rotate(0deg) scale(0.7) skew(1deg);opacity: .2;}}
+@keyframes circle-fill-anim {
+  0% {transform: rotate(0deg) scale(0.7) skew(1deg);opacity: .2;}
+  50% {transform: rotate(0deg) scale(1) skew(1deg);opacity: .2;}
+  100% {transform: rotate(0deg) scale(0.7) skew(1deg);opacity: .2;}}
