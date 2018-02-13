@@ -129,7 +129,7 @@ border: 3px red;
 
 #header {
 	height: 119px;
-	padding: 54px 0 0 0;
+	padding: 40px 0 0 0;
 	position: relative;
 	z-index: 99;
 }
@@ -457,16 +457,36 @@ padding-right: 10px;
 
 /* спецификация особенностей
 ------------------------------------------------------------------------------*/
+.col-6 {
+width:49%;
+height: 350px;
+display:inline-block;
+padding: 5px;
+text-align: center;
+margin-bottom: 20px;
+}
+
+.item {
+margin-top: 20px;
+}
+
+
+
+
+
 #about {
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
+.about-item .clearfix {
+width:30%;
+}
 
 
 .about-text {
-  width: 35%;
+  width: 30%;
 }
 
 .about-img {
@@ -525,14 +545,23 @@ text-shadow: 0 1px rgba(0,0,0 .3);
 
 
 /* Стили формы */
-.contact_form {
-text-align: center;
+.container .contact_form {
+background-color: #bbb;
 }
 
+.contact_form {
+text-align: center;
+
+}
+
+.title {
+padding-top: 30px;
+}
 
 #application {
-    width: px;
+    width: 40%;
     margin: 0 auto;
+
 }
 
 /*Стили полей для ввода*/
@@ -544,7 +573,7 @@ text-align: center;
     border: 1px solid #fff;
     border-radius: 40px;
     text-align: center;
-    color: #fff;
+    color: black;
     font-size: 24px;
 }
 
@@ -563,12 +592,12 @@ text-align: center;
     cursor: pointer;
 }
     .applicationButton:hover {
-        background: #d68c18;
+        background: red;
     }
 
 		/*Стили полей при клике по ним*/
 		#applicationName:focus, #applicationEmail:focus, #applicationTelephone:focus {
-		    border: 1px solid #30ad64;
+		    border: 1px solid red;
 		}
 
 		/*Стили текста, выводящегося в placeholder*/
@@ -606,7 +635,7 @@ text-align: center;
     /*Стили для кнопки*/
 .applicationButton {
     margin-top: 25px;
-    background: #30ad64;
+    background: red;
     border: none;
     width: 100%;
     height: 73px;
