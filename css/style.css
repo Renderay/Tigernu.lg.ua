@@ -17,7 +17,7 @@
 }
 
 body {
-	font: 18px/28px "brandon-grotesque", sans-serif;
+	font: 18px/28px "Proxima Nova", sans-serif;
 	color: #333;
 	background: #fff;
 	-webkit-text-size-adjust: none;
@@ -25,7 +25,7 @@ body {
 
 input, textarea, select, button {
 	outline: none;
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Proxima Nova", Helvetica, sans-serif;
 }
 
 a {
@@ -83,7 +83,7 @@ a.button {
 	height: 59px;
 	background-color: #DC5757 !important;
 	color: #FFF;
-	font-family: "brandon-grotesque", sans-serif;
+	font-family: "Proxima Nova", sans-serif;
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 59px;
@@ -252,7 +252,7 @@ border: 3px red;
 
 .features.type-2 h1 {
 	color: #FFF;
-	font-family: "brandon-grotesque", sans-serif;
+	font-family: "Proxima Nova", sans-serif;
 	font-size: 42px;
 	font-weight: 400;
 	text-transform: uppercase;
@@ -288,7 +288,7 @@ border: 3px red;
 
 .features.type-2 h4 {
 	color: #FFF;
-	font-family: 'Archer SSm A', 'Archer SSm B';
+	font-family: 'Proxima Nova';
 	font-weight: 500;
 	font-size: 32px;
 	font-weight: 300;
@@ -303,7 +303,7 @@ border: 3px red;
 
 .features.type-2 p {
 	color: #FFF;
-	font-family: "brandon-grotesque", sans-serif;
+	font-family: "Proxima Nova", sans-serif;
 	font-size: 22px;
 	line-height: 33px;
 	font-weight: 300;
@@ -316,7 +316,7 @@ border: 3px red;
 
 .features p {
 	color: #FFF;
-	font-family: 'Archer SSm A', 'Archer SSm B';
+	font-family: 'Proxima Nova', 'Archer SSm B';
 	font-weight: 500;
 	font-size: 30px;
 	font-weight: 300;
@@ -346,24 +346,22 @@ border: 3px red;
 
 #services.box {
 	padding-top: 10px;
-	padding-bottom: 0px;
+	padding-bottom: 20px;
 }
 
 
 h2.title {
   margin-bottom: 15px;
 	margin-top: 30px;
-	padding-top: 50px;
-
   text-transform: uppercase;
-  font:bold 30px/30px Arial, sans-serif;
+  font:bold 30px/30px 'Proxima Nova', sans-serif;
   color: #222;
 }
 
 
 h5.title {
   margin-bottom: 10px;
-    font:bold 18px/18px Arial, sans-serif;
+    font:bold 18px/18px 'Proxima Nova', sans-serif;
     color:#222;
 }
 
@@ -384,8 +382,12 @@ h5.title {
 .services-item {
   float: left;
   width: 25%;
-  padding: 90px 0 10px;
+  padding: 90px 0 40px;
   }
+
+
+
+
 
 .services-item p {
   font-size: 18px;
@@ -611,25 +613,25 @@ padding-top: 10px;
 		/*Стили текста, выводящегося в placeholder*/
 		::-webkit-input-placeholder {
 		    color: #efefef;
-		    font-family: 'PT Sans', sans-serif;
+		    font-family: 'Proxima Nova', sans-serif;
 		    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
 		}
 
 		::-moz-placeholder  {
 		    color: #fff;
-		    font-family: 'PT Sans', sans-serif;
+		    font-family: 'Proxima Nova', sans-serif;
 		    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
 		}  /* Firefox 19+ */
 
 		:-moz-placeholder {
 		    color: #fff;
-		    font-family: 'PT Sans', sans-serif;
+		    font-family: 'Proxima Nova', sans-serif;
 		    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
 		}  /* Firefox 18- */
 
 		:-ms-input-placeholder {
 		    color: #fff;
-		    font-family: 'PT Sans', sans-serif;
+		    font-family: 'Proxima Nova', sans-serif;
 		    text-shadow: 0 1px 1px rgba(0, 0, 0, .3);
 		}
 
@@ -651,7 +653,7 @@ padding-top: 10px;
     color: #fff;
     font-size: 24px;
     text-transform: uppercase;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Proxima Nova', sans-serif;
     cursor: pointer;
 }
     .applicationButton:hover {
@@ -699,7 +701,7 @@ padding-top: 10px;
 #footer p {
 	float: left;
 	color: #C4BEB9;
-	font-family: "brandon-grotesque";
+	font-family: "Proxima Nova";
 	font-size: 14px;
 	font-weight: 500;
 	text-transform: uppercase;
