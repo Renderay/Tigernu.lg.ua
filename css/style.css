@@ -345,13 +345,16 @@ border: 3px red;
 }
 
 #services.box {
-	padding-top: 70px;
+	padding-top: 10px;
+	padding-bottom: 0px;
 }
 
 
 h2.title {
   margin-bottom: 15px;
 	margin-top: 30px;
+	padding-top: 50px;
+
   text-transform: uppercase;
   font:bold 30px/30px Arial, sans-serif;
   color: #222;
@@ -363,6 +366,8 @@ h5.title {
     font:bold 18px/18px Arial, sans-serif;
     color:#222;
 }
+
+
 
 .descr {
   margin-bottom: 10px;
@@ -388,20 +393,20 @@ h5.title {
   line-height: 24px;
 }
 
-.commerce {
-  background: url('../img/commerce.png') no-repeat center top;
+.original {
+  background: url('../img/100.png') no-repeat center top;
 }
 
-.responsive {
-  background: url('../img/responsive.png') no-repeat center top;
+.deliver {
+  background: url('../img/deliver.jpg') no-repeat center top;
 }
 
-.security {
-  background: url('../img/security.png') no-repeat center top;
+.three {
+  background: url('../img/three.jpg') no-repeat center top;
 }
 
-.responsive {
-  background: url('../img/responsive.png') no-repeat center top;
+.percent {
+  background: url('../img/percent.jpg') no-repeat center top;
 }
 
 /* товары
@@ -422,16 +427,19 @@ padding-right: 10px;
   float: left;
   margin-right: 3.5%;
   width: 31%;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   background: white;
 }
 
 .services-wrap,
 .portfolio-wrap,
 .about-wrap,
-.team-wrap,
 #message {
-  padding-top: 70px;
+  padding-top: 35px;
+}
+
+.services-wrap {
+height: 300px;
 }
 
 .portfolio-item:nth-child(3n) {
@@ -446,7 +454,7 @@ padding-right: 10px;
 
 
 .p-item-footer {
-  padding: 25px 20px;
+  padding: 5px 20px;
 }
 
 
@@ -459,7 +467,7 @@ padding-right: 10px;
 ------------------------------------------------------------------------------*/
 .col-6 {
 width:49%;
-height: 350px;
+height: 250px;
 display:inline-block;
 padding: 5px;
 text-align: center;
@@ -551,11 +559,11 @@ background-color: #bbb;
 
 .contact_form {
 text-align: center;
-
+width: 100%;
 }
 
 .title {
-padding-top: 30px;
+padding-top: 10px;
 }
 
 #application {
@@ -651,6 +659,27 @@ padding-top: 30px;
     }
 
 
+
+		.order {
+		  background: url('../img/order.jpg') no-repeat center top;
+		}
+
+		.call {
+		  background: url('../img/call.jpg') no-repeat center top;
+		}
+
+		.time {
+		  background: url('../img/time.jpg') no-repeat center top;
+		}
+
+		.carrier {
+		  background: url('../img/carrier.jpg') no-repeat center top;
+		}
+
+
+
+
+
 /* Footer
 ------------------------------------------------------------------------------*/
 
@@ -704,28 +733,7 @@ padding-top: 30px;
 	width: 41px;
 	border: 2px solid #C4BEB9;
 	border-radius: 50px;
-	background: url(../img/ico_social.png) no-repeat 10px 10px;
-}
-
-#footer .social .facebook a {
-	background-position: -28px 10px;
-}
-
-#footer .social .linked-in a {
-	background-position: -65px 10px;
-}
-
-#footer .social li a:hover {
-	border-color: #fff;
-	background-position: 10px -23px;
-}
-
-#footer .social .facebook a:hover {
-	background-position: -28px -23px;
-}
-
-#footer .social .linked-in a:hover {
-	background-position: -65px -23px;
+	background: url(../img/vk.png) no-repeat center;
 }
 
 
